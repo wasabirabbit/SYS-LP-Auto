@@ -30,11 +30,11 @@
         if ($("select[name='Subject__c']").val() == ''){
                 empty = true;
         };
-
         
         if (empty) {
             $('button[type=submit]').removeClass('button-error').addClass('button-off');
-        } else {
+        } 
+        else {
 	        $('button[type=submit]').removeClass('button-off').addClass('button-error');
 	        $('#form-error').hide().slideUp();
         }
