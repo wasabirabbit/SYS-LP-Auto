@@ -44,7 +44,7 @@ p {
 }
 
 #lrg-logo {
-	position: absolute;
+	position: fixed;
 	right: 50px;
 	top: 25px;
 }
@@ -90,11 +90,11 @@ span.instructions {
 }
 
 .thk {
-	background: url('../img/panel-design-thanks.png') no-repeat top right #0E8E9B;
+	background: url('../img/panel-design-grey.png') no-repeat top right #919090;
 }
 
 .thkblue {
-	background-color: #0E8E9B;
+	background-color: #919090;
 }
 
 a {
@@ -258,7 +258,7 @@ button.button-error {
 	}
 
 	.thk {
-		background: url('../img/panel-design-thanks-sml.png') no-repeat top right #0E8E9B;
+		background: url('../img/panel-design-grey.png') no-repeat top right #919090;
 	}
 
 	p {
